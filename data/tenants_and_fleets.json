@@ -1,0 +1,102 @@
+[
+  {
+    "id": "tenant-bluedart",
+    "name": "BlueDart Express Pvt Ltd",
+    "gstin": "27AAACB1234F1Z1",
+    "headquarters": "Mumbai, Maharashtra",
+    "activeFleetSize": 14200,
+    "primaryCorridors": ["Chennai-Bengaluru", "Mumbai-Delhi", "Hyderabad-Bengaluru", "Kolkata-Siliguri"],
+    "fleetManager": "Sundararajan Natarajan",
+    "supportContact": "+91 22 2839 6444"
+  },
+  {
+    "id": "tenant-delhivery",
+    "name": "Delhivery Pvt Ltd",
+    "gstin": "06AABCD5678G2Z2",
+    "headquarters": "Gurugram, Haryana",
+    "activeFleetSize": 22500,
+    "primaryCorridors": ["Delhi-Jaipur-Ahmedabad", "Delhi-Chandigarh", "Pune-Mumbai-Goa", "Bengaluru-Kochi"],
+    "fleetManager": "Virender Sehgal",
+    "supportContact": "+91 124 671 9500"
+  },
+  {
+    "id": "tenant-dtdc",
+    "name": "DTDC Logistics India",
+    "gstin": "29AAACD9012H3Z3",
+    "headquarters": "Bengaluru, Karnataka",
+    "activeFleetSize": 11800,
+    "primaryCorridors": ["Bengaluru-Mysuru-Coimbatore", "Hyderabad-Vijayawada", "Kolkata-Bhubaneswar"],
+    "fleetManager": "Prasad Kulkarni",
+    "supportContact": "+91 80 2536 5032"
+  },
+  {
+    "id": "tenant-vrl",
+    "name": "VRL Logistics Ltd",
+    "gstin": "29AAACV3456J4Z4",
+    "headquarters": "Hubballi, Karnataka",
+    "activeFleetSize": 9400,
+    "primaryCorridors": ["Hubballi-Belagavi-Pune", "Bengaluru-Mumbai", "Ahmedabad-Jaipur"],
+    "fleetManager": "Anand Sankeshwar",
+    "supportContact": "+91 836 223 7511"
+  },
+  {
+    "id": "tenant-tci",
+    "name": "TCI Express Ltd",
+    "gstin": "06AAACT7890K5Z5",
+    "headquarters": "Gurugram, Haryana",
+    "activeFleetSize": 8700,
+    "primaryCorridors": ["Delhi-Lucknow-Patna", "Kolkata-Guwahati", "Mumbai-Nagpur-Raipur"],
+    "fleetManager": "Rajesh Agarwal",
+    "supportContact": "+91 124 409 9999"
+  },
+  {
+    "id": "tenant-rivigo",
+    "name": "Rivigo Services Pvt Ltd",
+    "gstin": "06AAACR1234L6Z6",
+    "headquarters": "Gurugram, Haryana",
+    "activeFleetSize": 7900,
+    "primaryCorridors": ["Delhi-Kanpur-Varanasi", "Jaipur-Indore", "Mumbai-Pune-Kolhapur"],
+    "fleetManager": "Gaurav Sikka",
+    "supportContact": "+91 124 456 7890"
+  },
+  {
+    "id": "tenant-safexpress",
+    "name": "Safexpress Pvt Ltd",
+    "gstin": "07AAACS5678M7Z7",
+    "headquarters": "New Delhi",
+    "activeFleetSize": 12600,
+    "primaryCorridors": ["National Highway 44 (Kashmir to Kanyakumari)", "Golden Quadrilateral Corridor"],
+    "fleetManager": "Rubal Jain",
+    "supportContact": "+91 11 2678 3000"
+  },
+  {
+    "id": "tenant-gati",
+    "name": "Gati-KWE Pvt Ltd",
+    "gstin": "36AAACG9012N8Z8",
+    "headquarters": "Hyderabad, Telangana",
+    "activeFleetSize": 6500,
+    "primaryCorridors": ["Hyderabad-Bengaluru-Chennai", "Pune-Nagpur", "Ahmedabad-Surat-Mumbai"],
+    "fleetManager": "Pirojshaw Sarkari",
+    "supportContact": "+91 40 2784 4400"
+  },
+  {
+    "id": "tenant-mahindralog",
+    "name": "Mahindra Logistics Ltd",
+    "gstin": "27AAACM3456P9Z9",
+    "headquarters": "Mumbai, Maharashtra",
+    "activeFleetSize": 8200,
+    "primaryCorridors": ["Auto Cluster Hubs (Pune, Chakan, Chennai, Sanand, Gurugram)"],
+    "fleetManager": "Rampraveen Swaminathan",
+    "supportContact": "+91 22 2844 7000"
+  },
+  {
+    "id": "tenant-snowman",
+    "name": "Snowman Logistics Ltd (Cold Chain)",
+    "gstin": "29AAACS7890Q1Z0",
+    "headquarters": "Bengaluru, Karnataka",
+    "activeFleetSize": 3800,
+    "primaryCorridors": ["Reefer Pharma & Perishables: Mumbai-Hyderabad-Bengaluru-Chennai"],
+    "fleetManager": "Sunil Nair",
+    "supportContact": "+91 80 6769 9500"
+  }
+]

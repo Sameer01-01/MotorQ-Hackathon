@@ -1,0 +1,22 @@
+[
+  { "id": "DRV-IN-001", "name": "Karthik Subramanian", "state": "TN", "city": "Chennai", "zone": "South", "license": "DL-TN0120150029144", "phone": "+91 98401 24891", "expYears": 11, "rating": 4.92, "bloodGroup": "O+" },
+  { "id": "DRV-IN-002", "name": "Suresh Chauhan", "state": "HR", "city": "Gurugram", "zone": "North", "license": "DL-HR0520160038192", "phone": "+91 98112 87401", "expYears": 9, "rating": 4.88, "bloodGroup": "B+" },
+  { "id": "DRV-IN-003", "name": "Nikhil Desai", "state": "MH", "city": "Pune", "zone": "West", "license": "DL-MH1220140081290", "phone": "+91 98220 54109", "expYears": 12, "rating": 4.95, "bloodGroup": "A+" },
+  { "id": "DRV-IN-004", "name": "Balaji Venkataraman", "state": "KA", "city": "Bengaluru", "zone": "South", "license": "DL-KA0120170049182", "phone": "+91 98450 31289", "expYears": 8, "rating": 4.85, "bloodGroup": "AB+" },
+  { "id": "DRV-IN-005", "name": "Rahul Sharma", "state": "DL", "city": "New Delhi", "zone": "North", "license": "DL-0320130091823", "phone": "+91 98100 48192", "expYears": 14, "rating": 4.97, "bloodGroup": "O+" },
+  { "id": "DRV-IN-006", "name": "Mehul Patel", "state": "GJ", "city": "Ahmedabad", "zone": "West", "license": "DL-GJ0120180028190", "phone": "+91 98250 82190", "expYears": 7, "rating": 4.82, "bloodGroup": "B+" },
+  { "id": "DRV-IN-007", "name": "Rajesh Mishra", "state": "UP", "city": "Lucknow", "zone": "North", "license": "DL-UP3220120019283", "phone": "+91 98390 19284", "expYears": 15, "rating": 4.91, "bloodGroup": "A+" },
+  { "id": "DRV-IN-008", "name": "Souvik Ghosh", "state": "WB", "city": "Kolkata", "zone": "East", "license": "DL-WB0220160074192", "phone": "+91 98300 62194", "expYears": 9, "rating": 4.87, "bloodGroup": "O-" },
+  { "id": "DRV-IN-009", "name": "Arjun Nair", "state": "KL", "city": "Kochi", "zone": "South", "license": "DL-KL0720170058190", "phone": "+91 98460 71290", "expYears": 8, "rating": 4.93, "bloodGroup": "B+" },
+  { "id": "DRV-IN-010", "name": "Nagesh Reddy", "state": "TS", "city": "Hyderabad", "zone": "South", "license": "DL-TS0920150039182", "phone": "+91 98490 28190", "expYears": 10, "rating": 4.89, "bloodGroup": "O+" },
+  { "id": "DRV-IN-011", "name": "Harpreet Singh", "state": "PB", "city": "Ludhiana", "zone": "North", "license": "DL-PB1020110091823", "phone": "+91 98150 49102", "expYears": 16, "rating": 4.98, "bloodGroup": "AB+" },
+  { "id": "DRV-IN-012", "name": "Anand Kapoor", "state": "MP", "city": "Indore", "zone": "Central", "license": "DL-MP0920140061928", "phone": "+91 98270 38192", "expYears": 11, "rating": 4.86, "bloodGroup": "A+" },
+  { "id": "DRV-IN-013", "name": "Bikash Mohapatra", "state": "OR", "city": "Bhubaneswar", "zone": "East", "license": "DL-OR0220180041928", "phone": "+91 98610 92819", "expYears": 7, "rating": 4.84, "bloodGroup": "O+" },
+  { "id": "DRV-IN-014", "name": "Vijay Yadav", "state": "BR", "city": "Patna", "zone": "East", "license": "DL-BR0120130081920", "phone": "+91 98350 41928", "expYears": 13, "rating": 4.90, "bloodGroup": "B+" },
+  { "id": "DRV-IN-015", "name": "Satyajit Sahoo", "state": "JH", "city": "Ranchi", "zone": "East", "license": "DL-JH0120170029182", "phone": "+91 98351 92831", "expYears": 8, "rating": 4.86, "bloodGroup": "A+" },
+  { "id": "DRV-IN-016", "name": "Chandreshwar Prasad", "state": "CG", "city": "Raipur", "zone": "Central", "license": "DL-CG0420150071928", "phone": "+91 98261 48190", "expYears": 10, "rating": 4.87, "bloodGroup": "O+" },
+  { "id": "DRV-IN-017", "name": "Dipankar Das", "state": "AS", "city": "Guwahati", "zone": "NorthEast", "license": "DL-AS0120160039182", "phone": "+91 98640 19284", "expYears": 9, "rating": 4.88, "bloodGroup": "B+" },
+  { "id": "DRV-IN-018", "name": "Deepak Joshi", "state": "UK", "city": "Dehradun", "zone": "North", "license": "DL-UK0720180019283", "phone": "+91 98370 48192", "expYears": 7, "rating": 4.85, "bloodGroup": "AB+" },
+  { "id": "DRV-IN-019", "name": "Rohit Pandey", "state": "HP", "city": "Shimla", "zone": "North", "license": "DL-HP0320140049182", "phone": "+91 98160 38192", "expYears": 11, "rating": 4.91, "bloodGroup": "A+" },
+  { "id": "DRV-IN-020", "name": "Sachin Kadam", "state": "GA", "city": "Panaji", "zone": "West", "license": "DL-GA0120190028190", "phone": "+91 98230 48192", "expYears": 6, "rating": 4.83, "bloodGroup": "O+" }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "make": "Tata Motors",
+    "country": "India",
+    "headquarters": "Mumbai, Maharashtra",
+    "wmiPassenger": "MA6",
+    "wmiCommercial": "MAT",
+    "models": [
+      { "name": "Nexon XZ+ (Diesel)", "fuel": "Diesel", "wmi": "MA6TNXZA", "displacement": "1497cc Turbo Revotorq", "vehicleClass": "Compact SUV", "powerBhp": 115, "fuelTankOrKwh": "44 L", "araiMileage": "23.2 km/l" },
+      { "name": "Nexon EV Empowered+", "fuel": "EV", "wmi": "MA6TNEVA", "displacement": "Permanent Magnet Synchronous AC", "vehicleClass": "Compact SUV", "powerBhp": 143, "fuelTankOrKwh": "40.5 kWh", "araiMileage": "465 km" },
+      { "name": "Harrier Fearless Dark", "fuel": "Diesel", "wmi": "MA6THA2A", "displacement": "1956cc Kryotec Turbocharged", "vehicleClass": "Mid SUV", "powerBhp": 170, "fuelTankOrKwh": "50 L", "araiMileage": "16.8 km/l" },
+      { "name": "Safari Accomplished 6S", "fuel": "Diesel", "wmi": "MA6TSFA1", "displacement": "1956cc Kryotec Turbocharged", "vehicleClass": "Full SUV", "powerBhp": 170, "fuelTankOrKwh": "50 L", "araiMileage": "16.1 km/l" },
+      { "name": "Punch Creative (Petrol)", "fuel": "Petrol", "wmi": "MA6TPNA1", "displacement": "1199cc Revotron", "vehicleClass": "Compact SUV", "powerBhp": 86, "fuelTankOrKwh": "37 L", "araiMileage": "20.1 km/l" },
+      { "name": "Punch EV Long Range", "fuel": "EV", "wmi": "MA6TPEA1", "displacement": "Liquid Cooled Permanent Magnet", "vehicleClass": "Compact SUV", "powerBhp": 122, "fuelTankOrKwh": "35 kWh", "araiMileage": "421 km" },
+      { "name": "Tiago EV XZ+ Tech Lux", "fuel": "EV", "wmi": "MA6TTIE1", "displacement": "Permanent Magnet AC Motor", "vehicleClass": "Hatchback", "powerBhp": 74, "fuelTankOrKwh": "24 kWh", "araiMileage": "315 km" },
+      { "name": "Intra V30 Smart Pick-up", "fuel": "Diesel", "wmi": "MATINT30", "displacement": "1497cc Direct Injection", "vehicleClass": "Light Commercial", "powerBhp": 70, "fuelTankOrKwh": "35 L", "araiMileage": "17.6 km/l" },
+      { "name": "Signa 4825.T Heavy Truck", "fuel": "Diesel", "wmi": "MAT4825T", "displacement": "6700cc Cummins ISBe 6.7L", "vehicleClass": "Heavy Commercial", "powerBhp": 250, "fuelTankOrKwh": "365 L", "araiMileage": "4.2 km/l" }
+    ]
+  },
+  {
+    "make": "Mahindra & Mahindra",
+    "country": "India",
+    "headquarters": "Mumbai, Maharashtra",
+    "wmiPassenger": "MA7",
+    "wmiCommercial": "MA7",
+    "models": [
+      { "name": "Scorpio-N Z8 L 4XPLOR", "fuel": "Diesel", "wmi": "MA7MSNZA", "displacement": "2184cc mHawk CRDe", "vehicleClass": "Full SUV", "powerBhp": 175, "fuelTankOrKwh": "57 L", "araiMileage": "15.4 km/l" },
+      { "name": "XUV700 AX7 L AWD", "fuel": "Diesel", "wmi": "MA7MX7DA", "displacement": "2184cc mHawk CRDe Turbo", "vehicleClass": "Full SUV", "powerBhp": 185, "fuelTankOrKwh": "60 L", "araiMileage": "16.6 km/l" },
+      { "name": "Thar LX 4x4 Hardtop", "fuel": "Diesel", "wmi": "MA7MTHDA", "displacement": "2184cc mHawk130", "vehicleClass": "Full SUV", "powerBhp": 130, "fuelTankOrKwh": "57 L", "araiMileage": "15.2 km/l" },
+      { "name": "Bolero Neo N10 (O)", "fuel": "Diesel", "wmi": "MA7MBLDA", "displacement": "1493cc mHawk75", "vehicleClass": "Mid SUV", "powerBhp": 100, "fuelTankOrKwh": "50 L", "araiMileage": "17.3 km/l" },
+      { "name": "XUV300 W8 (O) Turbo", "fuel": "Petrol", "wmi": "MA7MX3PA", "displacement": "1197cc TGDi Turbo", "vehicleClass": "Compact SUV", "powerBhp": 130, "fuelTankOrKwh": "42 L", "araiMileage": "18.2 km/l" },
+      { "name": "XUV400 EV Pro", "fuel": "EV", "wmi": "MA7MX4EA", "displacement": "PSMS Synchronous Motor", "vehicleClass": "Compact SUV", "powerBhp": 150, "fuelTankOrKwh": "39.4 kWh", "araiMileage": "456 km" },
+      { "name": "Bolero Maxi Truck Plus", "fuel": "Diesel", "wmi": "MA7MMAXI", "displacement": "2523cc m2DiCR", "vehicleClass": "Light Commercial", "powerBhp": 65, "fuelTankOrKwh": "45 L", "araiMileage": "17.2 km/l" },
+      { "name": "Blazo X 28 Haulage Truck", "fuel": "Diesel", "wmi": "MA7BLAZO", "displacement": "7200cc mPOWER 7.2L FuelSmart", "vehicleClass": "Heavy Commercial", "powerBhp": 276, "fuelTankOrKwh": "415 L", "araiMileage": "4.5 km/l" }
+    ]
+  },
+  {
+    "make": "Ashok Leyland",
+    "country": "India",
+    "headquarters": "Chennai, Tamil Nadu",
+    "wmiPassenger": "MBH",
+    "wmiCommercial": "MBH",
+    "models": [
+      { "name": "Bada Dost i4", "fuel": "Diesel", "wmi": "MBHBDST4", "displacement": "1478cc 3-Cyl Turbo Intercooled", "vehicleClass": "Light Commercial", "powerBhp": 80, "fuelTankOrKwh": "50 L", "araiMileage": "15.8 km/l" },
+      { "name": "Dost Strong", "fuel": "Diesel", "wmi": "MBHDSTRG", "displacement": "1478cc 1.5L Turbo Charged", "vehicleClass": "Light Commercial", "powerBhp": 70, "fuelTankOrKwh": "40 L", "araiMileage": "19.6 km/l" },
+      { "name": "Ecomet Star 1615 HE", "fuel": "Diesel", "wmi": "MBHECO16", "displacement": "3839cc H-Series 4-Cyl CRS", "vehicleClass": "Medium Commercial", "powerBhp": 150, "fuelTankOrKwh": "185 L", "araiMileage": "7.1 km/l" },
+      { "name": "AVTR 4220 10x2 Tipper", "fuel": "Diesel", "wmi": "MBHAVT42", "displacement": "5660cc H-Series 6-Cyl i-Gen6", "vehicleClass": "Heavy Commercial", "powerBhp": 200, "fuelTankOrKwh": "375 L", "araiMileage": "3.8 km/l" }
+    ]
+  },
+  {
+    "make": "Maruti Suzuki",
+    "country": "India",
+    "headquarters": "New Delhi / Gurugram",
+    "wmiPassenger": "MA3",
+    "wmiCommercial": "MA3",
+    "models": [
+      { "name": "Brezza ZXi+ Dual Tone", "fuel": "Petrol", "wmi": "MA3FJHB2", "displacement": "1462cc K15C Smart Hybrid", "vehicleClass": "Compact SUV", "powerBhp": 103, "fuelTankOrKwh": "48 L", "araiMileage": "19.8 km/l" },
+      { "name": "Grand Vitara Alpha Hybrid", "fuel": "Hybrid", "wmi": "MA3FGVHA", "displacement": "1490cc Intelligent Electric Hybrid", "vehicleClass": "Mid SUV", "powerBhp": 114, "fuelTankOrKwh": "45 L", "araiMileage": "27.9 km/l" },
+      { "name": "Swift ZXi+ AMT", "fuel": "Petrol", "wmi": "MA3ERLF1", "displacement": "1197cc Z-Series 3-Cyl Dual Jet", "vehicleClass": "Hatchback", "powerBhp": 82, "fuelTankOrKwh": "37 L", "araiMileage": "25.7 km/l" },
+      { "name": "Baleno Alpha AGS", "fuel": "Petrol", "wmi": "MA3FJEB1", "displacement": "1197cc K12N DualJet", "vehicleClass": "Hatchback", "powerBhp": 90, "fuelTankOrKwh": "37 L", "araiMileage": "22.9 km/l" },
+      { "name": "Ertiga ZXi (O) CNG", "fuel": "CNG", "wmi": "MA3FKGB3", "displacement": "1462cc K15C Factory CNG", "vehicleClass": "MPV", "powerBhp": 87, "fuelTankOrKwh": "60 L (CNG)", "araiMileage": "26.1 km/kg" },
+      { "name": "Dzire ZXi+ AMT", "fuel": "Petrol", "wmi": "MA3EYID1", "displacement": "1197cc DualJet Dual VVT", "vehicleClass": "Sedan", "powerBhp": 90, "fuelTankOrKwh": "37 L", "araiMileage": "24.1 km/l" },
+      { "name": "Super Carry Commercial CNG", "fuel": "CNG", "wmi": "MA3SCAR1", "displacement": "1196cc G12B Multi-Point EFI", "vehicleClass": "Light Commercial", "powerBhp": 65, "fuelTankOrKwh": "70 L (CNG)", "araiMileage": "23.2 km/kg" }
+    ]
+  },
+  {
+    "make": "BharatBenz",
+    "country": "India",
+    "headquarters": "Oragadam, Chennai, Tamil Nadu",
+    "wmiPassenger": "ME4",
+    "wmiCommercial": "ME4",
+    "models": [
+      { "name": "2823R Heavy Rigid Truck", "fuel": "Diesel", "wmi": "ME42823R", "displacement": "7200cc OM 926 BS-VI Engine", "vehicleClass": "Heavy Commercial", "powerBhp": 240, "fuelTankOrKwh": "380 L", "araiMileage": "4.6 km/l" },
+      { "name": "1617R Medium Duty Truck", "fuel": "Diesel", "wmi": "ME41617R", "displacement": "3900cc 4D34i Common Rail", "vehicleClass": "Medium Commercial", "powerBhp": 170, "fuelTankOrKwh": "215 L", "araiMileage": "6.8 km/l" }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "country": "India / South Korea",
+    "headquarters": "Sriperumbudur / Gurugram",
+    "wmiPassenger": "MAK",
+    "wmiCommercial": "MAK",
+    "models": [
+      { "name": "Creta SX(O) Knight Edition", "fuel": "Petrol", "wmi": "MAKGCRPA", "displacement": "1497cc Smartstream MPi", "vehicleClass": "Mid SUV", "powerBhp": 115, "fuelTankOrKwh": "50 L", "araiMileage": "17.4 km/l" },
+      { "name": "Venue SX Opt Turbo DCT", "fuel": "Petrol", "wmi": "MAKGVNPA", "displacement": "998cc Kappa Turbo GDi", "vehicleClass": "Compact SUV", "powerBhp": 120, "fuelTankOrKwh": "45 L", "araiMileage": "18.3 km/l" },
+      { "name": "Verna SX(O) 1.5 Turbo", "fuel": "Petrol", "wmi": "MAKGVRPA", "displacement": "1482cc Turbo GDi DOHC", "vehicleClass": "Sedan", "powerBhp": 160, "fuelTankOrKwh": "45 L", "araiMileage": "20.6 km/l" },
+      { "name": "Alcazar Signature 6S", "fuel": "Diesel", "wmi": "MAKGALDA", "displacement": "1493cc 1.5 U2 CRDi", "vehicleClass": "Full SUV", "powerBhp": 115, "fuelTankOrKwh": "50 L", "araiMileage": "20.4 km/l" }
+    ]
+  },
+  {
+    "make": "Toyota",
+    "country": "India / Japan",
+    "headquarters": "Bidadi, Karnataka",
+    "wmiPassenger": "MA1",
+    "wmiCommercial": "MA1",
+    "models": [
+      { "name": "Innova Crysta 2.4 GX", "fuel": "Diesel", "wmi": "MA1IGCDA", "displacement": "2393cc 2GD-FTV Inline-4", "vehicleClass": "MPV", "powerBhp": 150, "fuelTankOrKwh": "55 L", "araiMileage": "15.1 km/l" },
+      { "name": "Innova HyCross ZX(O)", "fuel": "Hybrid", "wmi": "MA1IHYHA", "displacement": "1987cc TNGA 5th Gen Self-Charging Hybrid", "vehicleClass": "MPV", "powerBhp": 186, "fuelTankOrKwh": "52 L", "araiMileage": "23.2 km/l" },
+      { "name": "Fortuner Legender 4x4", "fuel": "Diesel", "wmi": "MA1IFLDA", "displacement": "2755cc 1GD-FTV D-4D", "vehicleClass": "Full SUV", "powerBhp": 204, "fuelTankOrKwh": "80 L", "araiMileage": "14.2 km/l" },
+      { "name": "Urban Cruiser Hyryder V", "fuel": "Hybrid", "wmi": "MA1IHYRA", "displacement": "1490cc Strong Hybrid e-CVT", "vehicleClass": "Mid SUV", "powerBhp": 115, "fuelTankOrKwh": "45 L", "araiMileage": "27.9 km/l" }
+    ]
+  },
+  {
+    "make": "Kia",
+    "country": "India / South Korea",
+    "headquarters": "Anantapur, Andhra Pradesh",
+    "wmiPassenger": "MBV",
+    "wmiCommercial": "MBV",
+    "models": [
+      { "name": "Seltos GTX+ X-Line", "fuel": "Petrol", "wmi": "MBVGSXPA", "displacement": "1482cc Smartstream Turbo", "vehicleClass": "Mid SUV", "powerBhp": 160, "fuelTankOrKwh": "50 L", "araiMileage": "17.9 km/l" },
+      { "name": "Sonet HTX+ AT", "fuel": "Diesel", "wmi": "MBVGSNDA", "displacement": "1493cc 1.5L CRDi VGT", "vehicleClass": "Compact SUV", "powerBhp": 115, "fuelTankOrKwh": "45 L", "araiMileage": "19.0 km/l" },
+      { "name": "Carens Luxury Plus 7S", "fuel": "Diesel", "wmi": "MBVGCRDA", "displacement": "1493cc 1.5L CRDi VGT", "vehicleClass": "MPV", "powerBhp": 115, "fuelTankOrKwh": "45 L", "araiMileage": "21.3 km/l" }
+    ]
+  }
+]

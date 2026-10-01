@@ -1,0 +1,96 @@
+{
+  "protocol": "AIS-140 Intelligent Transportation Systems (ITS) & SAE J1939",
+  "sensors": {
+    "coolantTemp": {
+      "name": "Engine Coolant Temperature (ECT)",
+      "obdPid": "0x05",
+      "unit": "°C",
+      "baseline": 88.5,
+      "safeMin": 80.0,
+      "safeMax": 102.0,
+      "warningThreshold": 103.0,
+      "criticalThreshold": 108.0,
+      "samplingHz": 2,
+      "complianceStandard": "AIS-140 Section 4.2 / SAE J1979",
+      "description": "Sliding-window engine thermal management sensor via CAN bus PID 0x05"
+    },
+    "batteryVoltage": {
+      "name": "12V Auxiliary System Voltage",
+      "obdPid": "0x42",
+      "unit": "V",
+      "baseline": 13.82,
+      "safeMin": 12.6,
+      "safeMax": 14.7,
+      "warningThreshold": 12.4,
+      "criticalThreshold": 11.6,
+      "samplingHz": 1,
+      "complianceStandard": "AIS-004 Part 3 / ISO 16750-2",
+      "description": "Lead-acid / AGM system bus voltage monitoring alternator charging health"
+    },
+    "engineRpm": {
+      "name": "Crankshaft Rotational Speed",
+      "obdPid": "0x0C",
+      "unit": "RPM",
+      "baseline": 2150,
+      "safeMin": 650,
+      "safeMax": 4800,
+      "warningThreshold": 5100,
+      "criticalThreshold": 5600,
+      "samplingHz": 10,
+      "complianceStandard": "SAE J1939 / AIS-140 Protocol",
+      "description": "Engine RPM from crankshaft position sensor (CKP)"
+    },
+    "canBusThroughput": {
+      "name": "CAN 2.0B Telematics Ingest",
+      "obdPid": "CAN_MSG_INGEST",
+      "unit": "frames/sec",
+      "baseline": 4218,
+      "safeMin": 1200,
+      "safeMax": 8500,
+      "warningThreshold": 7200,
+      "criticalThreshold": 8800,
+      "samplingHz": 5,
+      "complianceStandard": "AIS-140 ITS Ingest Rate",
+      "description": "Cluster-level telematics message ingestion from OEM telematics control units (TCU)"
+    },
+    "ruleEngineP99": {
+      "name": "ML Inference & Rule Engine P99 Latency",
+      "obdPid": "PIPE_P99_MS",
+      "unit": "ms",
+      "baseline": 38.2,
+      "safeMin": 5.0,
+      "safeMax": 80.0,
+      "warningThreshold": 65.0,
+      "criticalThreshold": 100.0,
+      "samplingHz": 1,
+      "complianceStandard": "Enterprise SLA Tier-1 (< 80ms P99)",
+      "description": "Sliding window windowed feature extractor and RandomForest failure classification latency"
+    },
+    "dlqRate": {
+      "name": "Dead-Letter Queue Invalidation Rate",
+      "obdPid": "DLQ_ERR_COUNT",
+      "unit": "err/sec",
+      "baseline": 2.1,
+      "safeMin": 0.0,
+      "safeMax": 15.0,
+      "warningThreshold": 12.0,
+      "criticalThreshold": 25.0,
+      "samplingHz": 1,
+      "complianceStandard": "ISO 26262 ASIL-B Data Integrity",
+      "description": "Corrupted CAN frame payloads rejected by AIS-140 schema validation validator"
+    }
+  },
+  "enterpriseBenchmarks": {
+    "totalMonitoredVehicles": 100000,
+    "activeEnRoute": 86420,
+    "depotMaintenance": 4180,
+    "idleStandby": 9400,
+    "totalTelemetryEventsToday": "842.6M",
+    "telemetryIngestRate": "4,218 msgs/sec",
+    "dataPayloadProcessedGB": "148.4 GB",
+    "meanTimeToDetectionMinutes": 3.4,
+    "estimatedCatastrophicFailuresAvoided": 412,
+    "totalSavedINR": "₹ 1.84 Crores",
+    "fastagFleetDeductionToday": "₹ 14,82,900"
+  }
+}

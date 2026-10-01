@@ -1,0 +1,98 @@
+[
+  {
+    "code": "P0217",
+    "label": "Coolant Overheating Trend",
+    "standard": "SAE J1979 / OBD-II PID 0x05",
+    "system": "Engine Thermal Management System",
+    "desc": "Engine coolant temperature sustained above calibrated threshold (>105°C) — cooling circuit loss or thermostat stuck",
+    "recommendedPart": "OEM Water Pump & Thermostat Assembly Kit",
+    "estSavingINR": 48500,
+    "estRepairCostINR": 8450,
+    "slaHours": 3.5,
+    "severity": "Critical"
+  },
+  {
+    "code": "P0562",
+    "label": "12V Auxiliary Voltage Sag",
+    "standard": "ISO 16750-2 / AIS-004 Part 3",
+    "system": "Alternator & Charging Electrical Circuit",
+    "desc": "System bus voltage drops below nominal 12.4V — alternator diode ripple breakdown or parasitic battery draw",
+    "recommendedPart": "Valeo 140A Alternator Diode Pack & Auxiliary Battery",
+    "estSavingINR": 62000,
+    "estRepairCostINR": 14200,
+    "slaHours": 2.5,
+    "severity": "Critical"
+  },
+  {
+    "code": "P0303",
+    "label": "Combustion Misfire Cylinder 3",
+    "standard": "SAE J1939 / OBD-II PID 0x0C",
+    "system": "Powertrain Ignition & Combustion Chamber",
+    "desc": "Combustion irregularity detected in Cylinder 3 — direct ignition coil discharge interruption or injector nozzle fouling",
+    "recommendedPart": "Denso Direct Ignition Coil & NGK Iridium Plugs (Set of 4)",
+    "estSavingINR": 32000,
+    "estRepairCostINR": 6800,
+    "slaHours": 2.0,
+    "severity": "High"
+  },
+  {
+    "code": "P0301",
+    "label": "Combustion Misfire Cylinder 1",
+    "standard": "SAE J1939 / OBD-II PID 0x0C",
+    "system": "Powertrain Ignition & Fuel Rail",
+    "desc": "Cylinder 1 misfire pattern observed under torque load — high-pressure fuel rail pulse anomaly",
+    "recommendedPart": "Bosch High-Pressure Fuel Injector Nozzle",
+    "estSavingINR": 34500,
+    "estRepairCostINR": 7200,
+    "slaHours": 2.2,
+    "severity": "High"
+  },
+  {
+    "code": "P0A80",
+    "label": "High-Voltage EV Pack Degradation",
+    "standard": "AIS-038 Rev 2 / UN ECE R100",
+    "system": "High-Voltage Traction Battery & BMS",
+    "desc": "High-voltage traction battery cell voltage variance > 120mV — State of Health below warranty baseline",
+    "recommendedPart": "BMS High-Voltage Cell Balancing Harness Kit",
+    "estSavingINR": 75000,
+    "estRepairCostINR": 11500,
+    "slaHours": 4.0,
+    "severity": "Critical"
+  },
+  {
+    "code": "P0171",
+    "label": "Fuel Trim System Too Lean (Bank 1)",
+    "standard": "SAE J1979 / OBD-II PID 0x06",
+    "system": "Air-Fuel Induction & Metering",
+    "desc": "Bank 1 air-to-fuel ratio too lean — unmetered post-MAF intake air leak or fuel pump pressure drift",
+    "recommendedPart": "Bosch MAF Sensor & Intake Manifold O-Rings",
+    "estSavingINR": 28500,
+    "estRepairCostINR": 7400,
+    "slaHours": 2.0,
+    "severity": "Medium"
+  },
+  {
+    "code": "P0420",
+    "label": "Catalytic Converter Below BS-VI Threshold",
+    "standard": "MoRTH AIS-137 / BS-VI Stage 2",
+    "system": "Exhaust & Selective Catalytic Reduction (SCR)",
+    "desc": "Three-way catalytic converter oxygen storage efficiency below BS-VI stage 2 compliance threshold",
+    "recommendedPart": "Downstream Heated Lambda Oxygen Sensor",
+    "estSavingINR": 38000,
+    "estRepairCostINR": 5200,
+    "slaHours": 1.5,
+    "severity": "Medium"
+  },
+  {
+    "code": "P0507",
+    "label": "Idle Air Control RPM Sustained High",
+    "standard": "SAE J1939 / OBD-II PID 0x0C",
+    "system": "Electronic Throttle Control (ETC)",
+    "desc": "Idle air rotational rate sustained > 250 RPM above calibrated ECU target — throttle butterfly carbon accumulation",
+    "recommendedPart": "Electronic Throttle Body Decarb Service Kit",
+    "estSavingINR": 19000,
+    "estRepairCostINR": 3600,
+    "slaHours": 1.2,
+    "severity": "Low"
+  }
+]
