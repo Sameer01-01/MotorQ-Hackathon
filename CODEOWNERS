@@ -1,0 +1,23 @@
+# ==============================================================================
+# FLEETSENTINEL CODEOWNERS
+# ==============================================================================
+
+# Default global owners
+*       @Sameer01-01
+
+# Core Ingestion, Stream Engine & Normalization
+/services/pipeline/     @Sameer01-01
+/services/simulator/    @Sameer01-01
+
+# Relational Metadata, REST API & Security
+/services/api/          @Sameer01-01
+
+# Machine Learning & Optimization Algorithms
+/services/ml/           @Sameer01-01
+
+# Frontend Dashboard & Recharts Telematics
+/services/web/          @Sameer01-01
+
+# Master Datasets & Infrastructure as Code
+/data/                  @Sameer01-01
+/infra/                 @Sameer01-01

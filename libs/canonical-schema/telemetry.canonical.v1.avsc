@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "CanonicalTelemetryEvent",
+  "namespace": "org.fleetsentinel.telemetry.v1",
+  "doc": "AIS-140 & SAE J1939 canonical normalized vehicle telemetry event schema",
+  "fields": [
+    { "name": "eventId", "type": "string", "doc": "Deterministic composite key (vin + sequence)" },
+    { "name": "vin", "type": "string", "doc": "17-character ISO-3779 compliant Indian VIN" },
+    { "name": "tenantId", "type": "string", "doc": "Multi-tenant enterprise identifier" },
+    { "name": "fleetId", "type": "string", "doc": "Regional fleet identifier" },
+    { "name": "oemId", "type": "string", "doc": "Normalized vehicle manufacturer name" },
+    { "name": "adapterVersion", "type": "string", "default": "v1.2.0" },
+    { "name": "timestampMs", "type": "long", "doc": "Vehicle ECU generation timestamp in epoch milliseconds" },
+    { "name": "ingestTimestampMs", "type": "long", "doc": "Gateway ingest timestamp in epoch milliseconds" },
+    { "name": "sequence", "type": "long", "doc": "Monotonically increasing packet sequence counter" },
+    { "name": "latitude", "type": "double", "doc": "WGS-84 GPS Latitude" },
+    { "name": "longitude", "type": "double", "doc": "WGS-84 GPS Longitude" },
+    { "name": "speedKmh", "type": "float", "doc": "Vehicle ground speed in kilometers per hour" },
+    { "name": "odometerKm", "type": "double", "doc": "Cumulative cluster odometer in kilometers" },
+    { "name": "coolantTempC", "type": "float", "doc": "OBD-II PID 0x05 Engine Coolant Temperature in Celsius" },
+    { "name": "batteryVoltageV", "type": "float", "doc": "OBD-II PID 0x42 12V auxiliary system bus potential" },
+    { "name": "engineRpm", "type": "float", "doc": "OBD-II PID 0x0C Crankshaft rotational speed" },
+    { "name": "dtcs", "type": { "type": "array", "items": "string" }, "default": [], "doc": "Logged Diagnostic Trouble Codes" },
+    { "name": "qualityFlags", "type": "int", "default": 0, "doc": "Bitmask for sensor confidence and satellite lock" }
+  ]
+}

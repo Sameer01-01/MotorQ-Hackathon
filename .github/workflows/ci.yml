@@ -1,0 +1,89 @@
+# ==============================================================================
+# FLEETSENTINEL ENTERPRISE CONTINUOUS INTEGRATION & SECURITY PIPELINE
+# Runs on every pull request and push to main branch
+# ==============================================================================
+
+name: FleetSentinel CI & Security Suite
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ----------------------------------------------------------------------------
+  # CODE QUALITY & LINTING PASS
+  # ----------------------------------------------------------------------------
+  lint-and-format:
+    name: Code Quality & Static Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Linting Tools
+        run: |
+          pip install ruff mypy pytest
+
+      - name: Run Python Linting (Ruff)
+        run: |
+          ruff check .
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+          cache-dependency-path: services/web/package.json
+
+      - name: Validate TypeScript Compilation
+        working-directory: services/web
+        run: |
+          npm ci
+          npm run build
+
+  # ----------------------------------------------------------------------------
+  # AUTOMATED UNIT & INTEGRATION TESTING
+  # ----------------------------------------------------------------------------
+  test-suite:
+    name: Unit & Contract Tests
+    needs: lint-and-format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Project Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Execute Pytest Suite
+        run: |
+          pytest -v tests/ --cov=services/ --cov-report=xml
+
+  # ----------------------------------------------------------------------------
+  # SECURITY & DEPENDENCY AUDIT
+  # ----------------------------------------------------------------------------
+  security-audit:
+    name: Dependency & Vulnerability Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Run Secret Scanning (Gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

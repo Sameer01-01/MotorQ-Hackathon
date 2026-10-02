@@ -1,0 +1,39 @@
+# ==============================================================================
+# FLEETSENTINEL INDIAN COMMERCIAL FLEET COST & ECONOMIC MODEL
+# Calibrated against Indian Transport Logistics Industry Baselines (2026)
+# ==============================================================================
+
+currency: "INR"
+symbol: "₹"
+
+breakdown_expenses:
+  highway_towing_cost_base: 8500        # Average tow charge for light/medium commercial on Indian highways
+  heavy_commercial_towing_base: 18500   # Multi-axle commercial recovery charge
+  unplanned_service_multiplier: 3.4     # Emergency breakdown premium vs scheduled workshop bay
+  missed_delivery_sla_penalty_day: 15000 # Contractual SLA breach penalty per vehicle-day
+  driver_detention_allowance_day: 1800  # Driver per-diem during unscheduled roadside delay
+
+idling_and_fuel_economics:
+  diesel_price_per_litre: 92.50         # National average commercial diesel price
+  petrol_price_per_litre: 104.20
+  cng_price_per_kg: 84.00
+  idle_fuel_consumption_litres_per_hour: 1.85 # Medium duty diesel idling burn
+  ev_commercial_tariff_per_kwh: 7.20    # Commercial DISCOM power tariff
+
+maintenance_roi_assumptions:
+  coolant_overheating_p0217:
+    preventive_repair_cost: 8450       # Water pump & thermostat kit
+    catastrophic_engine_seizure: 56950 # Cylinder head resurfacing + towing
+    net_preventive_saving: 48500
+  alternator_voltage_sag_p0562:
+    preventive_repair_cost: 14200      # Diode pack & auxiliary battery
+    catastrophic_stranding_cost: 76200 # In-transit dead bus + towing + alternator assembly
+    net_preventive_saving: 62000
+  misfire_cylinder_3_p0303:
+    preventive_repair_cost: 6800       # Coil pack + iridium spark set
+    catastrophic_catalytic_melt: 38800 # Unburnt fuel destroying catalyst matrix
+    net_preventive_saving: 32000
+  ev_pack_degradation_p0a80:
+    preventive_repair_cost: 11500      # Cell balancing harness & BMS recalibration
+    catastrophic_pack_replacement: 86500 # Irreversible module thermal runaway
+    net_preventive_saving: 75000

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "KB-DOC-001",
+    "title": "Engine Coolant Over-Temperature Diagnostics (P0217 / OBD-II PID 0x05)",
+    "subsystem": "Thermal Management & Cooling Circuit",
+    "symptoms": ["Sustained ECT > 105°C under nominal cruising load", "Rapid temperature spike on gradient climb", "Heater core blowing cool air during idle"],
+    "rootCauses": ["Thermostat stuck in closed state", "Coolant pump impeller cavitation or belt slippage", "Severe radiator fin blockage from highway debris", "System pressure loss from cracked expansion reservoir"],
+    "recommendedAction": "Do not open pressure cap when hot. Allow engine to drop below 60°C. Pressure test cooling loop to 1.2 bar. Replace thermostat assembly (OEM #5424) and flush with ethylene-glycol 50:50 premix.",
+    "laborHours": 3.5,
+    "costRangeINR": "₹7,500 - ₹9,500"
+  },
+  {
+    "id": "KB-DOC-002",
+    "title": "12V Auxiliary Electrical Bus Voltage Sag (P0562 / OBD-II PID 0x42)",
+    "subsystem": "Charging Circuit & Alternator",
+    "symptoms": ["System potential dropping below 12.4V with headlights and AC active", "ECU rebooting during heavy starter cranking", "Flickering cabin instrument cluster"],
+    "rootCauses": ["Alternator diode pack ripple breakdown", "Slack serpentine belt tensioner", "High-resistance ground strap connection at chassis", "Sulfated lead-acid starter battery with high internal resistance"],
+    "recommendedAction": "Perform AC ripple voltage test across battery terminals (<0.5V AC nominal). Inspect alternator B+ terminal for thermal discoloration. Replace diode pack and bench test regulator output.",
+    "laborHours": 2.5,
+    "costRangeINR": "₹12,000 - ₹15,500"
+  },
+  {
+    "id": "KB-DOC-003",
+    "title": "Cylinder Specific Misfire Pattern (P0300 - P0304 / SAE J1939 PID 0x0C)",
+    "subsystem": "Ignition & Direct Fuel Injection",
+    "symptoms": ["Engine shuddering under low-RPM high-torque demand", "Rough uneven idle", "Exhaust odor of unburnt hydrocarbons"],
+    "rootCauses": ["Direct ignition coil dielectric breakdown under heat soak", "Worn spark plug electrode gap (>1.1mm)", "Clogged high-pressure direct fuel injector nozzle", "Carbon buildup on intake valves"],
+    "recommendedAction": "Swap ignition coil to adjacent cylinder to verify fault migration. Inspect plug insulator for tracking lines. Run injector flow balance test. Replace affected coil and install fresh iridium plugs.",
+    "laborHours": 2.0,
+    "costRangeINR": "₹5,500 - ₹7,800"
+  },
+  {
+    "id": "KB-DOC-004",
+    "title": "High-Voltage EV Traction Pack Degradation & Cell Imbalance (P0A80)",
+    "subsystem": "High-Voltage Battery & Battery Management System (BMS)",
+    "symptoms": ["Rapid state of charge drop during regenerative braking", "State of Health (SoH) decreasing faster than ARAI warranty curve", "Pack temperature delta exceeding 8°C across modules"],
+    "rootCauses": ["Lithium dendrite growth on degraded parallel cell groups", "BMS passive balancing harness resistance drift", "Cooling plate thermal interface paste drying out", "High-voltage contactor micro-arcing"],
+    "recommendedAction": "Connect certified diagnostic tool. Run static cell balance cycle at 100% SoC. Measure open-circuit voltage variance across all 96 series cells (<30mV nominal). Replace balancing harness if drift exceeds 120mV.",
+    "laborHours": 4.0,
+    "costRangeINR": "₹10,000 - ₹13,500"
+  }
+]
